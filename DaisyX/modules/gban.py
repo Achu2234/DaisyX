@@ -6,7 +6,7 @@ from telethon import events
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
 
-from DaisyX import OWNER_ID, SUDO_USERS, tbot
+from DaisyX.config import OWNER_ID, SUDO_USERS, tbot
 
 BANNED_RIGHTS = ChatBannedRights(
     until_date=None,
